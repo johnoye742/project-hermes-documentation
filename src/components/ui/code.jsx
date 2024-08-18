@@ -9,7 +9,7 @@ export default function Code({ code }) {
       <p>{code}</p>
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'/>
       <div className="top-5 absolute right-5 cursor-pointer">
-         <i class="fi fi-sr-copy" onClick={() => {
+         <i className="fi fi-sr-copy" onClick={() => {
            navigator.clipboard.writeText(code)
            toast({
              title: "Copied Successfully",
