@@ -25,12 +25,10 @@ export default function Installation() {
     />
                   
           <h1 className="py-3">Run Hermes server: </h1>
-          <Code code={`java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -p path_to_hermes/bin -XX:+ShowCodeDetailsInExceptionMessages -m com.johnoye742.hermes/hermes.Main
-`}
+          <Code code={`java -jar <path_to_hermes>/target/hermes-1.0-SNAPSHOT.jar`}
     />
           <h1 className="py-3">Run the test client for commands: </h1>
-          <Code code={`java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -p path_to_hermes/bin -XX:+ShowCodeDetailsInExceptionMessages -m com.johnoye742.hermes/hermes.TestApp
-`}
+          <Code code={`java -cp <path_to_hermes>/target/hermes-1.0-SNAPSHOT.jar com.johnoye742.hermes.Client`}
     />
 
         </section>
