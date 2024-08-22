@@ -26,6 +26,9 @@ export default function SideBar({ page }) {
             <SideBarItem title={"ALL"} link={'/docs/all'}/>
             <SideBarItem title={"ADD"} link={'/docs/add'}/>
             <SideBarItem title={"CONCAT"} link={'/docs/concat'}/>
+
+            <SideBarItem title={"ARRAY_PUSH"} link={'/docs/array_push'}/>
+            <SideBarItem title={"ARRAY_GET"} link={'/docs/array_get'}/>
           </div>
         </section>
       </div>
