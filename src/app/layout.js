@@ -1,11 +1,11 @@
-import { Inter } from "next/font/google";
+import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavBar from "@/components/ui/navbar";
 import { Toaster } from "@/components/ui/toaster";
 import Footer from "@/components/ui/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Project Hermes",
