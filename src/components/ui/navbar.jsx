@@ -14,13 +14,13 @@ export default function NavBar() {
           <NavigationMenu className="">
             <NavigationMenuList>
               <NavigationMenuItem>
-                  <Link href="/docs">
-                  <NavigationMenuLink  className={navigationMenuTriggerStyle()}>
+                 
+                  <NavigationMenuLink href="/docs" className={navigationMenuTriggerStyle()}>
                       
                         Documentation
                       
                   </NavigationMenuLink>
-                  </Link>
+                  
               </NavigationMenuItem>
               <NavigationMenuItem>
                 
