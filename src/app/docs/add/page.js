@@ -1,6 +1,4 @@
 
-
-
 import Code from "@/components/ui/code";
 import Footer from "@/components/ui/footer";
 import { Separator } from "@/components/ui/separator";
