@@ -4,7 +4,7 @@ import { Separator } from "./separator"
 
 export default function Footer ({ prev, next, className }) {
   return (
-    <div className={"w-full bottom-0 " + className}>
+    <div className={"w-full bottom-0 pb-4 " + className}>
       <Separator />
       <div className="py-5 w-full flex flex-row justify-between">
         {prev && <Button><Link href={prev || ""}> Prev</Link></Button>}
